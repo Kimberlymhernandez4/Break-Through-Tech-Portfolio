@@ -23,7 +23,7 @@ Main Goal: Understand the machine learning life cycle and explore common machine
 - A class of ML training that uses labeled data to associate data values for classification.
 - Supervised learning uses features and labels to determine its predictions within a dataset.
 - Examples include linear and logistic regression
-**Unsupervised Learning:** A class of ML training that uses unlabeled data to 
+**Unsupervised Learning:** A class of ML training that uses unlabeled data to identify
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## The CRISP-DM Process as a Machine Learning Engineer
