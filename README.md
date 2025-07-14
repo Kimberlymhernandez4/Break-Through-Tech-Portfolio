@@ -1,5 +1,5 @@
 # Break-Through-Tech-Portfolio
-<img width="1024" height="512" alt="image" src="https://github.com/user-attachments/assets/dc25a42d-cc2e-4667-a7c0-1a8d5b2ae2ef" />
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/dc25a42d-cc2e-4667-a7c0-1a8d5b2ae2ef" />
 
 - My Data Science, Machine Learning, and Artificial Intelligence Portfolio developed through Cornell University's Break Through Tech Fellowship program (2025-2026). 
 
@@ -34,7 +34,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## The CRISP-DM Process as a Machine Learning Engineer
-<img width="1400" height="750" alt="image" src="https://github.com/user-attachments/assets/bd923f7d-7141-4295-b86c-4ee37e7ea2ec" />
+<img width="700" height="425" alt="image" src="https://github.com/user-attachments/assets/bd923f7d-7141-4295-b86c-4ee37e7ea2ec" />
 
 The CRISP-DM (Cross-Industry Standard Process for Data Mining) is a widely used process that guides the development of Data Science and Machine Learning projects. 
 - The CRISP-DM process ensures a systematic and repeatable approach to problem-solving across different domains.
@@ -63,7 +63,7 @@ The CRISP-DM (Cross-Industry Standard Process for Data Mining) is a widely used 
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Vectorization with NumPy
-<img width="1000" height="328" alt="image" src="https://github.com/user-attachments/assets/d80fd45c-8937-45a6-8b14-a29ce15f4098" />
+<img width="600" height="320" alt="image" src="https://github.com/user-attachments/assets/d80fd45c-8937-45a6-8b14-a29ce15f4098" />
 
 - **Vectorization** allows mathematical functions to be applied directly to entire arrays or matrices without using explicit loops (i.e., for and while loops), significantly improving coding speed and efficiency.
 - Using **NumPy's vectorized operations** **(e.g., np.dot, np.mean, np.sum)** enables faster data processing and is essential for building scalable machine learning pipelines.
@@ -84,7 +84,7 @@ The CRISP-DM (Cross-Industry Standard Process for Data Mining) is a widely used 
 # Key Concepts Covered:
 
 ## **Feature Engineering in ML**
-<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/20f4719b-c6c1-4c47-9e18-e03dbf5eeb1e" />
+<img width="600" height="430" alt="image" src="https://github.com/user-attachments/assets/20f4719b-c6c1-4c47-9e18-e03dbf5eeb1e" />
 
 - Feature engineering is the process of creating, selecting, or transforming variables in a dataset to improve the performance of machine learning models.
 - It includes techniques such as normalization, binning, interaction terms, encoding categorical variables, and creating domain-specific features.
@@ -153,7 +153,7 @@ The CRISP-DM (Cross-Industry Standard Process for Data Mining) is a widely used 
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## **Decision Trees**
-<img width="715" height="450" alt="image" src="https://github.com/user-attachments/assets/7f821549-43ad-40d0-a3ec-1e18774d6eed" />
+<img width="425" height="300" alt="image" src="https://github.com/user-attachments/assets/7f821549-43ad-40d0-a3ec-1e18774d6eed" />
 
 - Decision Trees use a tree-like structure to make predictions by learning simple decision rules from data features.
 - Each node represents a feature test, each branch a decision outcome, and each leaf a predicted label or value.
@@ -163,7 +163,7 @@ The CRISP-DM (Cross-Industry Standard Process for Data Mining) is a widely used 
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## **Training and Testing Data Sets (Train, Validation, Test)**
-<img width="580" height="326" alt="image" src="https://github.com/user-attachments/assets/f1253b0d-d116-43ea-bb66-146d99ea4333" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/f1253b0d-d116-43ea-bb66-146d99ea4333" />
 
 - **Training set:** Used to teach the model patterns in the data.
 - **Validation set:** Used to fine-tune hyperparameters and assess model performance during training.
@@ -180,7 +180,7 @@ The process of finding the best set of hyperparameters to improve model performa
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## **Distance Functions: Euclidean Distance, Manhattan Distance, and Mahalanobis Distance**
-<img width="544" height="246" alt="image" src="https://github.com/user-attachments/assets/4c495d02-55b2-4316-9ba9-655bff83eae6" />
+<img width="425" height="300" alt="image" src="https://github.com/user-attachments/assets/4c495d02-55b2-4316-9ba9-655bff83eae6" />
 
 - **Euclidean Distance:** Straight-line distance between two points in space; commonly used in KNN. (L1)
 - **Manhattan Distance:** Sum of absolute differences along each dimension; useful for grid-like data. (L2)
@@ -204,7 +204,7 @@ Scikit-learn provides a consistent API for training and evaluating models.
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## **Normalization Techniques: Standardization and Min-Max Normalization**
-<img width="560" height="361" alt="image" src="https://github.com/user-attachments/assets/bcbec63d-a96b-4748-9c9b-442d70087521" />
+<img width="450" height="350" alt="image" src="https://github.com/user-attachments/assets/bcbec63d-a96b-4748-9c9b-442d70087521" />
 
 - **Standardization:** Scales features to have a mean of 0 and standard deviation of 1.
 - **Min-Max Normalization:** Scales features to a fixed range, typically [0, 1].
@@ -220,7 +220,7 @@ Scikit-learn provides a consistent API for training and evaluating models.
 
 
 ## **Low Entropy vs. High Entropy**
-<img width="1100" height="513" alt="image" src="https://github.com/user-attachments/assets/b88a6627-36e4-4079-9236-a3940e5adf45" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b88a6627-36e4-4079-9236-a3940e5adf45" />
 
 - **Low Entropy:** Indicates low uncertainty or predictability. A variable with low entropy has a few likely outcomes or one outcome that is much more probable than others.
 - **High Entropy:** Indicates high uncertainty or randomness. A variable with high entropy has many possible outcomes with relatively even probabilities.
@@ -228,7 +228,7 @@ Scikit-learn provides a consistent API for training and evaluating models.
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## **Model Complexity: The Bias-Variance Trade Off**
-<img width="492" height="309" alt="image" src="https://github.com/user-attachments/assets/33ee2733-0da4-4b71-9e4b-e72a1be02709" />
+<img width="425" height="300" alt="image" src="https://github.com/user-attachments/assets/33ee2733-0da4-4b71-9e4b-e72a1be02709" />
 
 
 - **Bias:** Error due to overly simplistic assumptions in the model.
@@ -289,18 +289,15 @@ Scikit-learn provides a consistent API for training and evaluating models.
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## **An In-Depth Guide to Linear Regression Models**
-<img width="1000" height="627" alt="image" src="https://github.com/user-attachments/assets/0abac555-42fd-4c2c-8330-2fb93ef965eb" />
+<img width="500" height="475" alt="image" src="https://github.com/user-attachments/assets/0abac555-42fd-4c2c-8330-2fb93ef965eb" />
 
-- **Linear Regression** is supervised machine learning algorithm used for regression problems.
-
-- Linear regression finds a linear relationship between one or more features and a label (such as a price or an age.) 
-
+- **Linear Regression** is supervised machine learning algorithm used for regression problems. It finds a linear relationship between one or more features and a label (such as a price or an age.)
 - **There are two types of linear regression models:** **Simple linear regression** finds the linear relationship between one feature and one label, and **multiple linear regression** finds the linear relationship between multiple features and one label.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## **Mean Squared Error (MSE)**
-<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/5983a400-f526-4a8d-a4b0-054b059d0b85" />
+<img width="500" height="375" alt="image" src="https://github.com/user-attachments/assets/5983a400-f526-4a8d-a4b0-054b059d0b85" />
 
 - Mean Squared Error (MSE) is a common loss function used in regression tasks to measure the average squared difference between the predicted values and the actual labels.
 - It is calculated by squaring the error (difference between predicted and actual), summing all squared errors, and then dividing by the total number of data points.
@@ -314,30 +311,145 @@ Scikit-learn provides a consistent API for training and evaluating models.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Unit 5: Evaluate and Deploy Your Model
+# Unit 5: Evaluate and Deploy Your Model
+- Understand the importance of selection in ML --> to select the right model evaluation metrics that are appropriate for the analysis type. 
+- Choose appropriate model candidates and hyperparameters for training/validation/test splits in the selection phase. 
+- Apply feature selection techniques to deploy, host, and monitor your model
 
+-----------------------------------------------------------------------------------------------------------------------------
+
+# Key Concepts Covered:
+
+## **Feature Selection**
+- **Feature selection** is the process of identifying the most relevant input variables (features) that contribute to the model’s performance.
+- It helps to improve model accuracy, reduce overfitting, and decrease training time by removing irrelevant or redundant data.
+
+## **Heuristic Selection**
+- **Heuristic selection** refers to rule-of-thumb strategies or approximations used to guide feature selection when exact methods are computationally expensive.
+
+## **Stepwise Selection: Forward vs. Backward**
+- **Stepwise Selection** is a systematic method of adding or removing features based on their statistical significance in a regression model.
+
+- **Forward Stepwise** selection begins with no features and adds them one at a time.
+- **Backward Stepwise** selection starts with all features and removes the least significant one at each step.
+
+-----------------------------------------------------------------------------------------------------------------------------
+## **Precision vs. Accuracy**
+<img width="636" height="340" alt="image" src="https://github.com/user-attachments/assets/9b73178e-36fb-413b-9f33-95aa29264285" />
+
+
+- **Precision** focuses only on positive predictions, calculating the proportion of true positives among all predicted positives.
+- **Accuracy** measures the overall correctness of the model by comparing all correct predictions to total predictions.
+
+**Key Takeaway:** High accuracy can be misleading with imbalanced datasets; precision is more informative when false positives are costly.
+
+-----------------------------------------------------------------------------------------------------------------------------
+## **Hyperparameters**
+
+- **Hyperparameters** are external settings that control how a model learns, such as learning rate, tree depth, or number of neighbors in KNN.
+- Unlike model parameters (which are learned from data), hyperparameters are set before training and affect model performance.
+  - Tuning hyperparameters is essential for optimizing model accuracy, generalization, and training efficiency.
+
+-----------------------------------------------------------------------------------------------------------------------------
+## **Cross-Validation in ML**
+- **Cross-validation** is a technique for evaluating model performance by partitioning data into multiple training and testing splits.
+  - It reduces the risk of overfitting by providing a more reliable estimate of how the model will perform on unseen data. 
+
+
+## **K-Fold Cross Validation**
+<img width="420" height="569" alt="image" src="https://github.com/user-attachments/assets/7dd8610c-e43b-4f1e-a2ea-d086078488cd" />
+
+- In **K-Fold Cross Validation**, the dataset is split into K equal parts (folds). The model is trained on K-1 folds and tested on the remaining fold. This process repeats K times, with each fold serving as the test set once.
+  - The final performance metric is the average of all K test scores.
+
+-----------------------------------------------------------------------------------------------------------------------------
+## **Receiver Operator Curve (ROC)**
+- The **ROC Curve** is a graphical plot that illustrates a binary classifier’s performance by plotting the True Positive Rate (TPR) against the False Positive Rate (FPR) at various thresholds.
+- A model with perfect classification has a curve that hugs the top-left corner and an **AUC (Area Under Curve)** of 1.0.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+# Unit 6: Special Topics -- Ensemble Methods and Unsupervised Learning
+- Learn about unsupervised learning methods (i.e., unsupervised clustering) and understand the different ensemble methods that can be used to improve model performance.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+# Key Concepts Covered:
+
+## **Types of Ensemble Methods Used in Unsupervised Learning**
+<img width="914" height="376" alt="image" src="https://github.com/user-attachments/assets/1118a203-e0c6-498c-b8b6-04fa13167b34" />
+
+
+- There are three types of ensemble methods --> (1) Stacking, (2) Bagging, and (3) Boosting. 
+
+## **Stacking**
+- Taking the weighted combination of the predictions of a total of K different methods. 
+
+## **Bagging (Bootstrapped Aggregation)**
+- Generates multiple models from the same data by taking boostrapped samples and averaging the individual model preductions. 
+
+## **Boosting**
+- Iteratively build models by focusing on the cumulative errors from prior iterations' predictions. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+## **Model Error Equation**
+
+**Model Error = Estimation Bias + Estimation Variance**
+
+- **Estimation Bias:** Model rigidity that prevents adaptation to nuances of the data. 
+- **Estimation Variance:** Model flexibility that causes the estimated model to be sensitive to data nuances
+
+**Note: This equation for model error is used in ensemble models.**
+
+-----------------------------------------------------------------------------------------------------------------------------
+## **Random Forest Algorithm** 
+- Random Forest is an ensemble learning method that constructs a collection of decision trees during training and outputs the average prediction (regression) or majority vote (classification).
+
+**It introduces randomness by:**
+- Bootstrapping the dataset (sampling with replacement).
+- Selecting random subsets of features at each split.
+
+**Advantages:**
+- Reduces overfitting compared to individual decision trees.
+- Handles missing data and maintains good accuracy without extensive tuning.
+
+-----------------------------------------------------------------------------------------------------------------------------
+## **Gradient Boosted Decision Trees**
+- **Gradient Boosted Decision Trees (GBDT)** build trees sequentially, where each new tree corrects the residual errors made by the previous ones.
+- The process uses gradient descent to minimize a specified loss function (e.g., MSE or log loss).
+
+**Disadvantage:** Can be sensitive to overfitting if not properly tuned (e.g., learning rate, number of trees, depth).
+
+-----------------------------------------------------------------------------------------------------------------------------
+## **Unsupervised Learning Algorithms**
+- Unsupervised learning methods are used to find patterns or structures in data without using labeled outputs.
+
+## **K-Means Clustering**
+<img width="561" height="420" alt="image" src="https://github.com/user-attachments/assets/358e18a5-da98-466d-aa5e-7b929d9ac93d" />
+
+- **K-Means** is an unsupervised algorithm that clusters data by minimizing the distance between each data point and its assigned cluster center.
+  - **Key Consideration:** Initialization and choice of K can affect results. The elbow method is commonly used to select K.
+
+## **Heirarchical Clustering**
+<img width="600" height="460" alt="image" src="https://github.com/user-attachments/assets/25f181c7-e0c7-46a3-bc5e-5c0e4dcbf6ea" />
+
+- **Hierarchical Clustering** builds a hierarchy of clusters that can be visualized using a dendrogram.
+
+**There are Two Main Types:**
+- **Agglomerative (bottom-up):** Starts with individual points and merges the closest clusters step by step.
+- **Divisive (top-down):** Starts with one cluster and splits it iteratively.
+
+  - **Advantages:** Useful for exploring the structure of data and making decisions about cluster boundaries after visualization.
 
 
 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+# Unit 7: Special Topics -- Deep Learning and Computer Vision
 
-
-
-
-
------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
+(Working on this section <3)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
