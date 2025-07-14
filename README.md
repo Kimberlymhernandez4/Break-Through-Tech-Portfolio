@@ -5,7 +5,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------
 # Unit 1: Machine Learning in a Nutshell (Introduction)
-**Main Goal:** Understand the machine learning life cycle and explore common machine learning packages. 
+- Understand the machine learning life cycle and explore common machine learning packages. 
 
 -----------------------------------------------------------------------------------------------------------------------------
 # Key Concepts Covered:
@@ -238,17 +238,108 @@ Scikit-learn provides a consistent API for training and evaluating models.
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-
 # Unit 4: Train a Linear Model 
+- Learn how to apply gradient descent, loss functions, and hyperparameters for logistic regression.
+- Use NumPy for vector and matrix operations for ML problems. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+# Key Concepts Covered:
+
+## **Dot Product (Scalar Product)**
+- Also referred to as scalar product, a special operation that takes the element’s product of each vector and then sums them together.
+  - It is typically represented with what looks like a period or a dot floating between the two vectors.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## **Gradient Descent**
+- A numerical optimization algorithm used to train and optimize a logistic regression model using loss functions.
+  - **Gradient Descent** iteratively updates the model parameters until a loss function is minimized. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## **Hessian and Identity Matrices**
+
+- **Hessian Matrix:** A square matrix of second-order partial derivatives of a scalar-valued function, or scalar field.
+- **Identity Matrix:** A special matrix whose diagonal elements are one, and all other elements are zero.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+## **An In-Depth Guide to Logistic Regression Models**
+
+- **Logistic Regression:** A linear classification method that is trained by iteratively tuning a set of weights to minimize the log loss.
+
+## **Inverse Logit**
+- One of three steps in the logistic regression model. The inverse logit step transforms the output of the linear step into a probability prediction P(y|X) between 0-1.
+
+## **The Learning Rate Hyperparameter in Logistic Regression**
+- A common logistic regression hyperparameter (also commonly known as the step size), learning rate dictates the speed of gradient descent. The ideal learning rate is one that reaches global minima in a fast and efficient manner.
+
+## **Linear Step**
+- One of three steps in the Logistic Regression model. The linear step computes a value z(X) by taking the linear sum of feature values z (X with model weights) W and an intercept term α (also known as bias, β, in some literature).
+
+## **Log Loss**
+- A popular loss function used to measure the performance of a some classification models. This loss function is used for both logistic regression and neural networks.
+
+## **What is a Linear Model?**
+- A class of supervised learning models that are represented by an equation: simple to implement, fast to train, and have lower complexity.
+  - Logistic regression is an example of a linear model.
+- In a linear model, the form of a model must fit a very specific format. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## **An In-Depth Guide to Linear Regression Models**
+<img width="1000" height="627" alt="image" src="https://github.com/user-attachments/assets/0abac555-42fd-4c2c-8330-2fb93ef965eb" />
+
+- **Linear Regression** is supervised machine learning algorithm used for regression problems.
+
+- Linear regression finds a linear relationship between one or more features and a label (such as a price or an age.) 
+
+- **There are two types of linear regression models:** **Simple linear regression** finds the linear relationship between one feature and one label, and **multiple linear regression** finds the linear relationship between multiple features and one label.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## **Mean Squared Error (MSE)**
+<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/5983a400-f526-4a8d-a4b0-054b059d0b85" />
+
+- Mean Squared Error (MSE) is a common loss function used in regression tasks to measure the average squared difference between the predicted values and the actual labels.
+- It is calculated by squaring the error (difference between predicted and actual), summing all squared errors, and then dividing by the total number of data points.
+
+**Key Takeaways of MSE:**
+- A lower MSE indicates better model performance and more accurate predictions.
+- **Note:** It penalizes larger errors more heavily than smaller ones, making it sensitive to outliers.
+
+## **Regularization Penalty**
+- The penalty on a model’s complexity; which helps to prevent overfitting. Different kinds of regularization include L1 regularization (Lasso Regression) and L2 regularization (Ridge Regression).
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Unit 5: Evaluate and Deploy Your Model
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
 
 
 
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
