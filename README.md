@@ -8,7 +8,9 @@
 # About Me Section
 
 👋 Hi, I'm Kimberly Hernandez!
-I'm a junior at the University of Maryland Global Campus, pursuing a double major in Data Science and Finance. I’m passionate about using data-driven insights to solve real-world problems in finance, business, tech, and nonprofit sectors. My interests lie at the intersection of machine learning, financial markets, and technology—areas I explore through academic projects, applied research, and fellowships like Break Through Tech AI.
+I'm a junior at the University of Maryland Global Campus, pursuing a double major in Data Science and Finance. I’m passionate about using data-driven insights to solve real-world problems in finance, business, tech, and nonprofit sectors. My interests lie at the intersection of machine learning, financial markets, and technology—areas I explore through academic projects, applied research, and fellowships like Break Through Tech AI. 
+
+[🔗 Connect with me on Linkedin!](https://www.linkedin.com/in/kimberly-h-b91555269/)
 
 # Projects Completed During My ML Foundations Course:
 
@@ -21,7 +23,7 @@ I'm a junior at the University of Maryland Global Campus, pursuing a double majo
 - **Results:** Achieved an 85% accuracy score using Logistic Regression with hyperparameter tuning via GridSearchCV, validated by precision, recall, and F1-score metrics.
 
 ## **Lab 7 Project: Implementing a Convolutional Neural Network Using Keras**
-_**(File is uploaded in repository)**_
+_**(Project is uploaded in repository)**_
 - **Objective:** Implemented a Convolutional Neural Network (CNN) for image classification using the Fashion MNIST dataset.
 - **Approach:** Built a deep learning pipeline using TensorFlow/Keras, including data normalization, model design, training, and evaluation.
 - **Model Design:** Created a CNN with convolutional, max-pooling, and dense layers, achieving high training and validation accuracy.
@@ -469,21 +471,150 @@ Scikit-learn provides a consistent API for training and evaluating models.
   - **Advantages:** Useful for exploring the structure of data and making decisions about cluster boundaries after visualization.
 
 
-
-
 -----------------------------------------------------------------------------------------------------------------------------
 
 # Unit 7: Special Topics -- Deep Learning and Computer Vision
 
-(Working on this section <3)
+- Explore the architecture and logic behind Artificial Neural Networks (ANNs) and Convolutional Neural Networks (CNNs), commonly used for image classification tasks.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Neural Networks (NN)
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5578ab4e-6724-42cc-a9bd-b56bdeae5d11" />
+
+- **Neural Networks** are composed of interconnected layers of nodes (neurons), each performing weighted computations followed by an activation function.
+
+- Training a neural network involves minimizing a **log loss function (cross-entropy),** which penalizes misclassifications by computing the negative log probability of the correct class.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Entropy and Log Loss
+
+- **Entropy** measures uncertainty in classification.
+- The **log loss function** uses **entropy** to penalize incorrect predictions—lower log loss means better performance.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Convolutional Neural Networks (CNNs)
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/cd578b24-7704-4faa-bc90-d76000624d02" />
+
+## Convolution Layers
+
+- CNNs extract spatial features from images using filters (kernels) that slide over the image, capturing patterns like edges or textures.
+
+- The **convolution operation generates a feature map**, reducing the image into its most essential information.
+
+## Pooling Layers
+
+- **Max pooling** and **average pooling** reduce the spatial dimensions of the feature map, helping with generalization and computational efficiency.
+
+- **Example:** A 4×4 region may shrink to 2×2 after pooling, preserving critical features.
+
+## Batch Normalization
+
+- Applied during training to normalize intermediate outputs of layers.
+- It speeds up convergence, stabilizes learning, and allows for higher learning rates. 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 
+# Unit 8: Special Topics -- Deep Learning and Natural Language Processing
+
+- Explore how deep learning techniques are used to understand, process, and generate human language, with applications ranging from sentiment analysis to large language models.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## What is Natural Language Processing (NLP)? 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a20cc188-0528-4da9-8eb6-d6f35f03c4c2" />
+
+- NLP is a branch of Artificial Intelligence (AI) that enables machines to interpret, analyze, and generate human language in text or speech.
+
+- It powers systems like chatbots, voice assistants, translation tools, and content recommendation engines.
 
 
+-----------------------------------------------------------------------------------------------------------------------------
+
+## The NLP Pipeline Process
+
+**Data Cleaning and Preprocessing**
+- Remove stop words (e.g., and, is, the)
+- Apply tokenization (split text into words or tokens)
+
+**Vectorization**
+- Convert words or documents into numerical vectors
+- Methods include TF-IDF and word embeddings
+
+**Modeling**
+- Apply machine learning or deep learning models to classify, cluster, or generate text
 
 
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Word Embeddings 
+
+- Represent words as K-dimensional vectors (typically within a -1 to 1 range)
+- Embeddings capture semantic meaning and contextual similarity between words
 
 
+## Large Language Models (LLMs)
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/4484df4a-bbae-4fee-b0fd-0b33cd5a1377" />
+
+- LLMs like GPT and BERT are pre-trained on massive text corpora and can understand or generate human-like language. They power state-of-the-art applications in translation, summarization, Q&A systems, and more. 
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+# Unit 9: Prepare ML Models for the Real World
+
+- Explore the practical and ethical considerations for deploying machine learning models at scale, including performance issues, class imbalance, and fairness.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Solution Engineering
+
+- **Model performance failure:** When evaluating a test, a performance failure describes a model that may have poor performance. This can lead to overconfidence in a system and poor generalization performance when the model is applied to live data.
+
+- **Execution bottleneck:** A data preparation or modeling process not terminating in a reasonable amount of time. This common and frustrating issue is often caused by a misalignment among the data, tools, and hardware you use to process the data.
+
+- **Societal failures:** Failures which happen when a machine learning model produces unintended discrimination or disparate impact and lacks accountability. It is where failure exists between the model’s owner and the social context in which the model operates.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Data Sufficiency and Class Imbalance
+
+## Class Imbalance
+
+- A common issue in supervised learning when one class significantly outweighs another (e.g., 90% negative, 10% positive).
+- Can lead to biased models that favor the majority class.
+
+## Applicable Solutions
+
+- **Downsampling:** Reduces the size of the majority class.
+- **Upsampling:** Increases the size of the minority class using duplication or synthesis.
+- These techniques aim to rebalance training data and improve model sensitivity to underrepresented outcomes.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Feature Engineering Challenges
+
+- **Incomplete Features:** May cause poor model accuracy and limit generalization.
+- **Improved Feature Selection:** Helps focus on the most relevant variables, often informed by domain knowledge and importance metrics.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Fairness and Accountability in Machine Learning
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ce66c148-d11a-401c-afb1-06bd207edebc" />
+
+
+**Addressing ethical AI concerns means ensuring that ML systems:**
+1. Avoid discrimination or disparate impact,
+2. Are explainable and transparent,
+3. Operate responsibly in social and legal contexts.
+
+**Tools like fairness metrics and bias audits can support equitable ML deployment.**
+
+
+-----------------------------------------------------------------------------------------------------------------------------
 
