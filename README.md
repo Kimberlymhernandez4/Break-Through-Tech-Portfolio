@@ -10,24 +10,25 @@
 👋 Hi, I'm Kimberly Hernandez!
 I'm a junior at the University of Maryland Global Campus, pursuing a double major in Data Science and Finance. I’m passionate about using data-driven insights to solve real-world problems in finance, business, tech, and nonprofit sectors. My interests lie at the intersection of machine learning, financial markets, and technology—areas I explore through academic projects, applied research, and fellowships like Break Through Tech AI.
 
-# Recent Work
-🎯 Verizon Communications Financial Research (Business Finance - FINC 330)
-An exploratory 3-part financial research project analyzing Verizon Inc.'s SEC 10-K reports (2022–2025). I used trend analysis, common-size statements, and stock valuation techniques to evaluate Verizon’s financial health and generate trade recommendations for investors.
+# Projects Completed During My ML Foundations Course:
 
-🛠️ Tools Used: Excel, SEC EDGAR, ratio analysis, valuation models
+## **Lab 8 Project**
+[Lab 8 -- Define And Solve ML Problems Using a Book Review Dataset.pdf](https://github.com/user-attachments/files/21513864/Lab.8.--.Define.And.Solve.ML.Problems.Using.a.Book.Review.Dataset.pdf)
 
-📈 Key Insights: Identified financial trends and performance drivers using historical data and market metrics
+- **Objective:** Built a binary classification model to predict whether a book review is positive or negative using Natural Language Processing (NLP).
+- **Dataset:** Used a labeled dataset of book reviews with textual data and sentiment labels (True/False).
+- **Methods:** Applied text preprocessing (cleaning, tokenization, lemmatization, stopword removal), TF-IDF vectorization, and trained multiple models including Logistic Regression, Naive Bayes, and SVM.
+- **Results:** Achieved an 85% accuracy score using Logistic Regression with hyperparameter tuning via GridSearchCV, validated by precision, recall, and F1-score metrics.
 
-🔗 View the full project here: https://github.com/Kimberlymhernandez4/Business-Finance-Course-FINC-330-
+## **Lab 7 Project: Implementing a Convolutional Neural Network Using Keras**
+_**(File is uploaded in repository)**_
+- **Objective:** Implemented a Convolutional Neural Network (CNN) for image classification using the Fashion MNIST dataset.
+- **Approach:** Built a deep learning pipeline using TensorFlow/Keras, including data normalization, model design, training, and evaluation.
+- **Model Design:** Created a CNN with convolutional, max-pooling, and dense layers, achieving high training and validation accuracy.
+- **Results:** Evaluated model performance using accuracy and loss plots, confusion matrix, and classification report to validate classification quality.
 
-📊 ATM Transaction Quality Report (DATA 320 – Power BI)
-Created an interactive dashboard to assess the quality of ATM transaction data. Used Power BI to detect anomalies like duplicates, outliers, and data entry inconsistencies, providing key recommendations to improve data integrity.
-
-🔗 View the full report here: https://github.com/Kimberlymhernandez4/Power-BI-Projects-DATA-320-
-
-🧠 Ongoing: AI & ML Fellowship at Break Through Tech (Cornell Tech)
-Currently participating in a 12-month fellowship focused on machine learning foundations, neural networks, and real-world AI applications. I’m gaining hands-on experience in model building, feature engineering, and algorithm optimization using Python packages like scikit-learn, TensorFlow, and Keras.
-
+-----------------------------------------------------------------------------------------------------------------------------
+# Summary of Course Learning Content
 -----------------------------------------------------------------------------------------------------------------------------
 # Unit 1: Machine Learning in a Nutshell (Introduction)
 - Understand the machine learning life cycle and explore common machine learning packages. 
