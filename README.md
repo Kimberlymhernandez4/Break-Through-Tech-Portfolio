@@ -1,7 +1,7 @@
 # Break-Through-Tech-Portfolio
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/dc25a42d-cc2e-4667-a7c0-1a8d5b2ae2ef" />
 
-- My Data Science, Machine Learning, and Artificial Intelligence Portfolio developed through Cornell University's Break Through Tech Fellowship program (2025-2026). 
+- My Data Science, Machine Learning, and Artificial Intelligence Portfolio and Personal Guide to ML/AI developed through Cornell University's Break Through Tech Fellowship program (2025-2026). 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
